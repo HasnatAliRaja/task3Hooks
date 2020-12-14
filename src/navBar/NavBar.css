@@ -1,0 +1,32 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: lightpink;
+    color: white;
+}
+ul{
+    list-style:none;
+    display: flex;
+    padding: 0;
+    margin:0;
+    padding-right: 3em;
+
+}
+li{
+    padding: 1.5em;
+    /* padding-right: 4em;
+    padding-left: 4em; */
+}
+li:hover{
+    color:black;
+    background-color: white;
+}
+.logo{
+    padding-left:1em;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}

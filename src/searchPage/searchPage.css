@@ -1,0 +1,29 @@
+.bookCard{
+    width:200px;
+    height: 300px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.containerGrid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    margin :auto;
+    width: 60%;
+    margin-top: 4em;
+
+}
+.bookCard img{
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+     
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
